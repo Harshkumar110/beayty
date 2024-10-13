@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; Add this to ensure padding is included in element's total width/height */
+}
+
+body {
+    background-color: rgb(187, 159, 213);
+    /* overflow-x: hidden;// Prevent horizontal scrolling */
+    width: 100%;
+}
+
+
+nav img {
+    height: 123px;
+    padding: 20px;
+    padding-left: 68px;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.herotitle h1 {
+    color: white;
+    font-size: 72.6px;
+    padding-left: 127px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1first {
+    font-weight: normal;
+}
+
+.heroimg {
+    padding-left: 110px;
+}
+
+.product img {
+    position: relative;
+    top: -87px;
+    height: 514px;
+
+}
+
+.b1 {
+    width: 119px;
+    height: 45px;
+    border-radius: 32px;
+    padding: 14px;
+    margin: 5px;
+
+    background-color: #8c52ff;
+    border-color: #8c52ff;
+    gap: 55px;
+    /* justify-content: center;
+    justify-items: center; */
+    position: relative;
+    right: -151px;
+    top: 47px;
+}
+
+.sapret {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.section2 {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Text {
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 77px;
+
+}
+
+.Text h1 {
+    position: relative;
+    right: -40px;
+    font-size: 41px;
+    padding-bottom: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Text p {
+    position: relative;
+    right: -128px;
+    height: 55px;
+    width: 615px;
+    padding: 17px;
+    margin: 5px;
+}
+
+.Text h3 {
+    position: relative;
+    right: -151px;
+}
+
+.video1 video {
+    height: 346px;
+
+    position: relative;
+    top: 96px;
+}
+
+.beanifits {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 41px;
+}
+
+.beanifits img {
+    height: 200px;
+    /* justify-content: center;
+    justify-items: center; */
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 537px;
+    padding-left: 25px;
+}
+
+
+.cardss {
+    height: 490px;
+
+    justify-content: center;
+    justify-items: center;
+    padding-left: -7px;
+}
+
+.cardss img {
+    height: 490px;
+
+    justify-content: center;
+    justify-items: center;
+}
+
+.card {
+    height: 490px;
+
+    justify-content: center;
+    justify-items: center;
+    padding-left: 29px;
+}
+
+
+.card img {
+    height: 490px;
+
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.cofounders {
+    display: flex;
+    padding-top: 13px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cofounders img {
+    height: 200px;
+}
+
+.cards2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 537px;
+
+    padding-left: 293px;
+}
+
+footer {
+    background-color: black;
+    height: 600px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    color: white;
+
+    /* margin: 10px; */
+
+}
+
+
+
+.logft p {
+    font-size: 25px;
+}
+
+.logft :nth-child(4) {
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.logft :nth-child(5) {
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+.logft :nth-child(6) {
+
+    padding-top: 8px;
+}
+
+.logft :nth-child(7) {
+
+    padding-top: 8px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    align-items: center;
+
+}
+
+.icons img {
+    height: 35px;
+
+}
+
+.icons :nth-child(2) {
+    position: relative;
+    top: 3px;
+}
+
+.imgf img {
+    height: 550px;
+    padding: 10px;
+}
+
+.logft img {
+    height: 200px;
+}
+
+.icons img {
+    padding-top: 25px;
+    height: 35px;
+
+}
+
+
+
+@media only screen and (max-width:560px) {
+
+    /* body {
+        background-color: rgb(242, 39, 39);
+    } */
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; Add this to ensure padding is included in element's total width/height */
+    }
+
+    nav img {
+        height: 123px;
+        padding: 25px;
+        /* padding-left: 75px; */
+
+    }
+
+    .section1 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .herotitle h1 {
+        /* display: flex;
+        justify-content: left;
+        justify-items: left; */
+        color: white;
+        font-size: 45px;
+        padding-left: 20px;
+
+
+    }
+
+    .h1first {
+        font-weight: normal;
+    }
+
+    .heroimg {
+        padding-left: 1px;
+    }
+
+    .product img {
+        display: flex;
+        position: relative;
+        top: 0px;
+        padding-top: 30px;
+        height: 478px;
+
+    }
+
+    .heroimg :nth-child(2) {
+        position: relative;
+        display: flex;
+        height: 378px;
+        word-wrap: normal;
+    }
+
+    .heroimg :first-child {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* left: 45px; */
+    }
+
+    .b1 {
+        width: 119px;
+        height: 45px;
+        border-radius: 32px;
+        background-color: #8c52ff;
+        border-color: #8c52ff;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        right: -8px;
+        top: 5px;
+    }
+
+    .section2 {
+        /* padding-top: 15px; */
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .Text {
+        color: white;
+        display: grid;
+        padding-top: 77px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .Text h1 {
+        position: relative;
+        right: 0px;
+        display: flex;
+
+        font-size: 25px;
+        padding-bottom: 25px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Text p {
+        position: relative;
+        right: 0px;
+        display: flex;
+        height: 135px;
+        width: 276px;
+        padding: 17px;
+        /* margin: 5px; */
+
+    }
+
+    .Text h3 {
+        position: relative;
+        right: 0px;
+        display: flex;
+        padding: 3px;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video1 {
+
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .video1 video {
+        height: 155px;
+        position: relative;
+        top: -42px;
+        right: 0px;
+    }
+
+    .beanifits {
+        position: relative;
+        right: 0px;
+        padding-top: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beanifits img {
+        height: 133px;
+
+    }
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1241px;
+        /* padding-left: 25px; */
+        padding-left: 7px;
+
+    }
+
+    .card {
+        height: 415px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        padding-left: 0px;
+    }
+
+    .card img {
+        height: 397px;
+
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section4 {
+        display: grid;
+    }
+
+    .cofounders {
+        display: flex;
+        padding-top: 41px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cofounders img {
+        height: 133px;
+    }
+
+    .cards2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 839px;
+
+        /* padding-left: 25px; */
+        padding-left: 25px;
+    }
+
+    .cardss {
+        height: 397px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        padding-left: 0px;
+    }
+
+    .cardss img {
+        height: 397px;
+
+        justify-content: center;
+        justify-items: center;
+    }
+
+    footer {
+        background-color: black;
+
+        height: 900px;
+
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        color: white;
+
+        word-wrap: normal;
+
+    }
+
+
+    .imgf {
+        height: 310px;
+        padding: 10px;
+    }
+
+    .imgf img {
+        height: 310px;
+        padding: 10px;
+    }
+
+    .log img {
+        height: 140px;
+    }
+
+    .logft p {
+        font-size: 18px;
+    }
+
+    .logft :nth-child(3) {
+
+        padding: 15px;
+    }
+
+    .logft :nth-child(4) {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .logft :nth-child(5) {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .logft :nth-child(6) {
+
+        padding: 15px;
+    }
+
+    /* 
+    .logft :nth-child(7) {
+
+        padding: 5px;
+    } */
+
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+
+    }
+
+    .icons img {
+        /* padding-top: 25px; */
+        display: flex;
+        justify-content: center;
+        justify-items: c;
+        height: 35px;
+
+    }
+
+
+}
