@@ -121,6 +121,7 @@ nav img {
 
     position: relative;
     top: 96px;
+    left: 75px;
 }
 
 .beanifits {
@@ -437,7 +438,10 @@ footer {
         position: relative;
         top: -42px;
         right: 0px;
+        left: 0px;
+        
     }
+    
 
     .beanifits {
         position: relative;
